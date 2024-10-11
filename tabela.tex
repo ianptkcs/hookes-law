@@ -1,0 +1,40 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage{siunitx}
+\sisetup{
+  locale = DE, % Define a vírgula como separador decimal
+  per-mode=symbol,
+  output-decimal-marker={,}
+}
+\begin{document}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{c c}
+\hline
+\textbf{Deslocamento (cm)} & \textbf{Força (N)} \\
+\hline
+$\SI{5.00 \pm 0.05}{\centi\meter}$ & $\SI{0.1212 \pm 0.0017}{\newton}$ \\
+$\SI{10.00 \pm 0.05}{\centi\meter}$ & $\SI{0.2888 \pm 0.0020}{\newton}$ \\
+$\SI{15.00 \pm 0.05}{\centi\meter}$ & $\SI{0.4449 \pm 0.0019}{\newton}$ \\
+$\SI{20.00 \pm 0.05}{\centi\meter}$ & $\SI{0.6100 \pm 0.0025}{\newton}$ \\
+$\SI{25.00 \pm 0.05}{\centi\meter}$ & $\SI{0.7715 \pm 0.0019}{\newton}$ \\
+$\SI{30.00 \pm 0.05}{\centi\meter}$ & $\SI{0.9227 \pm 0.0017}{\newton}$ \\
+$\SI{35.00 \pm 0.05}{\centi\meter}$ & $\SI{1.0963 \pm 0.0018}{\newton}$ \\
+$\SI{40.00 \pm 0.05}{\centi\meter}$ & $\SI{1.2693 \pm 0.0020}{\newton}$ \\
+$\SI{45.00 \pm 0.05}{\centi\meter}$ & $\SI{1.4273 \pm 0.0018}{\newton}$ \\
+$\SI{50.00 \pm 0.05}{\centi\meter}$ & $\SI{1.5905 \pm 0.0016}{\newton}$ \\
+$\SI{55.00 \pm 0.05}{\centi\meter}$ & $\SI{1.7610 \pm 0.0021}{\newton}$ \\
+$\SI{60.00 \pm 0.05}{\centi\meter}$ & $\SI{1.9246 \pm 0.0018}{\newton}$ \\
+$\SI{65.00 \pm 0.05}{\centi\meter}$ & $\SI{2.0920 \pm 0.0019}{\newton}$ \\
+$\SI{70.00 \pm 0.05}{\centi\meter}$ & $\SI{2.2678 \pm 0.0018}{\newton}$ \\
+$\SI{75.00 \pm 0.05}{\centi\meter}$ & $\SI{2.4390 \pm 0.0018}{\newton}$ \\
+$\SI{80.00 \pm 0.05}{\centi\meter}$ & $\SI{2.6129 \pm 0.0019}{\newton}$ \\
+\hline
+\end{tabular}
+\caption{Medições de força em função do deslocamento.}
+\label{tab:forca_deslocamento}
+\end{table}
+
+\end{document}
