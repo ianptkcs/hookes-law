@@ -96,6 +96,10 @@ O script executa as seguintes etapas:
 
     _(O valor e a incerteza serão exibidos após a execução do script.)_
 
+    ```
+    Constante de mola k = 3.2029 N/m ± 0.0004 N/m
+    ```
+
 -   **Gráficos**:
 
     ![Gráfico Força vs. Deslocamento](grafico.png)
